@@ -1,0 +1,66 @@
+/* Extra small devices (portrait phones, less than 544px) */
+/* No media query since this is the default in Bootstrap */
+@import url('https://fonts.googleapis.com/css?family=Questrial|Raleway');
+
+@import url("nav.css");
+@import url("home.css");
+@import url("footer.css");
+@import url("about.css");
+@import url("contact.css");
+@import url("projects.css");
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Questrial', sans-serif;
+}
+
+p, a, figcaption,li {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+/*Extra small devices */
+@media screen and (max-height: 450px) {
+
+
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

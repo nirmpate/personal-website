@@ -1,0 +1,123 @@
+/* CSS for About page */
+
+
+
+.aboutMe {
+  background: #202024 url('../images/stardust.png') repeat ;
+  width: 100%;
+  padding-bottom:55px ;
+  color:#fff;/*Make up for navigation height. So intro looks centered*/
+}
+
+.center {
+  text-align: center;
+}
+
+.aboutPhoto {
+  padding:4em 0 5em;
+  line-height: 30px;
+}
+
+.aboutPhoto span {
+  color:#9ebc9e;
+}
+.aboutPhoto img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+  margin-bottom:2em;
+  object-fit: cover;
+
+}
+
+
+
+
+blockquote {
+  font-size:26px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom:0;
+  padding:10px 5px 10px 5px;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-bottom: 50px;
+  border-left: 5px solid #9ebc9e;
+
+}
+blockquote:before {
+  color: black;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+
+blockquote p {
+  display: inline;
+}
+
+
+.aboutGhostButton {
+  display: inline-block;
+  width: 250px;
+  padding:16px;
+  color: #fff;
+  border: 2px solid #9ebc9e;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-top:1em;
+}
+.aboutGhostButton:hover,
+.aboutGhostButton:active {
+  background-color: #9ebc9e;
+  color:#000;
+  text-decoration: none;
+  transition:.2s;
+
+}
+
+.aboutGhostButton::before {
+  background-color:#9ebc9e !important;
+}
+
+/*Extra small devices */
+@media screen and (max-height: 450px) {
+
+
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .aboutPhoto img {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 0;
+    width:400px;
+    height:400px;
+    object-fit: cover;
+
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .aboutPhoto {
+    padding:10em 0 5em;
+    line-height: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

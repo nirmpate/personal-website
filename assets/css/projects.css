@@ -1,0 +1,137 @@
+.projectSection {
+  background: #202024 url('../images/stardust.png') repeat ;
+  padding: 5em 0em 5em 0em;
+  color:#fff;
+
+
+
+}
+
+
+.projectHeader {
+  padding:0 0 2em 0;
+  text-align: center;
+}
+
+.projectHeader h1 {
+  font-size: 64px;
+
+}
+
+
+.projectSection a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.projectSection a:hover {
+  transition: .2s;
+
+}
+
+.projectSection img {
+  width:auto;
+  height:300px;
+  margin-bottom: 3em;
+}
+
+.projectSection .expandedContent {
+  margin-top:3em;
+  margin-bottom: 3em;
+}
+
+.expandedContent li {
+  padding:.5em  0;
+}
+
+.expandedContent a {
+  color:#000;
+  transition: all 0.2s;
+}
+.projectSection input {
+  display: none;
+  visibility: hidden;
+}
+
+.projectSection label{
+  color:#9ebc9e;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin-top: -15px;
+
+}
+.projectSection label::before {
+  display: inline-block;
+
+}
+
+#expand {
+  margin-top: -22px;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+  background: #202024 url('../images/vintage_speckles.png') repeat ;
+  color:#000;
+
+
+}
+
+#expand2 {
+  margin-top: -22px;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+  background: #202024 url('../images/vintage_speckles.png') repeat ;
+  color:#000;
+
+
+}
+
+.noPadding {
+  padding:0;
+}
+.open{
+  height: 700px !important;
+}
+
+
+.projectItem {
+  margin-top: 5em;
+}
+
+
+/*Extra small devices */
+@media screen and (max-height: 450px) {
+
+
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .projectSection img {
+    width:auto;
+    height:300px;
+    margin-bottom: 0em;
+  }
+
+  .open{
+    height: 500px !important;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

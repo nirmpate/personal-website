@@ -1,0 +1,111 @@
+.intro {
+  background: #202024 url('../images/vintage_speckles.png') repeat ;
+  height:100vh;
+  width: 100%;
+  padding-bottom:55px; /*Make up for navigation height. So intro looks centered*/
+  z-index:-1;
+  position:fixed;
+
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.introCentered {
+  float:none;
+  margin:0 auto;
+
+}
+
+.intro{
+  text-align: center;
+}
+
+.intro h1 {
+  margin-top: .5em;
+  font-size: 64px;
+}
+
+.intro h2, .intro p {
+  color: #e07a5f;
+
+}
+
+.intro h2 {
+  font-size:36px;
+}
+.intro p {
+  font-size: 24px;
+  margin-bottom:1em
+}
+
+
+
+/*About Section*/
+.about {
+  height:auto;
+  width: 100%;
+  background: #202024 url('../images/stardust.png') repeat ;
+  color:#fff;
+  text-align: center;
+  padding:5em 0;
+  margin-top:100vh;
+  z-index: 1;
+}
+
+
+.portrait {
+  width:250px;
+  height: 250px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display:block;
+  margin:0 auto;
+  object-fit: cover;
+  margin-bottom: 1.5em;
+}
+
+@media (min-width: 544px) {
+  .portrait {
+    width:300px;
+    height: 300px;
+  }
+}
+
+.about h2 {
+  font-size:38px;
+  margin-bottom: 1em;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.ghostButton {
+  display: inline-block;
+  width: 250px;
+  padding:16px;
+  color: #fff;
+  border: 2px solid #e07a5f;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-top:1em;
+}
+.ghostButton:hover,
+.ghostButton:active {
+  background-color: #e07a5f;
+  color:#000;
+  text-decoration: none;
+  transition:.2s;
+
+}
+
+.ghostButton::before {
+  background-color:#e07a5f !important;
+}
